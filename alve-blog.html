@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Blog</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .question{
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body style="font-family: 'Inter', sans-serif;">
+    <header>
+        <h1 class="text-5xl font-bold text-black text-center my-5">Answers of the blog questions</h1>
+    </header>
+    <main>
+        <ul>
+            <li class="mx-3 my-5">
+                <h3 class="question">Discuss the scope of var, let, and const</h3>
+                <p>Answer:
+                    <br>
+                    <p class="font-bold text-green-500">var: var is the oldest of three variable declaration methods. Those three are: var, let and const(constant). Before ES6 var was very popular. var is globally scoped or function scoped. Globally scoped means the var is declared outside of any function and this var can be accessed throughout the code. Function scoped means that the var is declared inside a function and can only be accessed inside the function.</p>
+                    <br>
+                    <p class="font-bold text-blue-500">let: let is a block scoped variable declaration method. Block scoped means it works within a {}(curly braces). Whatever is inside the curly braces is called a block. Let can only be accessed inside this block. Let can be updated inside its block, but cannot be re-declared. You can declare the same let in another block.</p>
+                    <br>
+                    <p class="font-bold text-red-500">const: const(constant) is also a block scoped variable. It can only be accessed inside the block its declared. Const cannot re-assigned or re-declared within the block.   </p>
+                </p>
+            </li>
+            <li class="mx-3 my-5">
+                <h3 class="question">Tell us the use cases of null and undefined</h3>
+                <p>Answer:
+                    <br>
+                    <p class="font-bold text-yellow-500">null: null is an assignment value. When you set a variable's value to 'null' it means that the variable has no value or the variable is empty. It is done intentionally.</p>
+                    <br>
+                    <p class="font-bold text-orange-500">undefined: undefined simply means something that is not defined. It is something that javascript produces when running the code. When you declare a variable but don't assign any value to it. When you don't return a value in function it shows undefined when the function is called. </p>
+                </p>
+            </li>
+            <li class="mx-3 my-5">
+                <h3 class="question">What do you mean by REST API?</h3>
+                <p>Answer:
+                    <br>
+                    <p class="font-bold text-purple-500">An API(Application Programming Interface) is a set of rules that tells how the devices or applications can connect and communicate with each other. It works between two software or devices. A REST(Representational State ) API is a set of rules for creating and interacting with websites and applications. It is an architectural style for designing networked applications.</p>
+                </p>
+            </li>
+        </ul>
+        <p class="text-xs font-light text-end mr-10 my-5">Source: Internet</p>
+    </main>
+</body>
+</html>
